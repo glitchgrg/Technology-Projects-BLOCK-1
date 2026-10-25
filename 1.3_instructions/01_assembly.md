@@ -53,13 +53,13 @@ objdump -d hello_arm > hello_arm.disasm.txt
 ```
 **Prompts (add to `journal/02_asm_hello.md`)**:
 - Explain the role of `r0`, `r1`, `r2`, and `r7` in this program.
-- r0: Holds the file descriptor 1, which represents standard output.
-- r1: Holds the address of the message to display.
-- r2: Holds the message length, 14 bytes.
-- r7: Holds the system call number. 4 requests write, and 1 requests exit.
+ r0: Holds the file descriptor 1, which represents standard output.
+ r1: Holds the address of the message to display.
+ r2: Holds the message length, 14 bytes.
+ r7: Holds the system call number. 4 requests write, and 1 requests exit.
 
 - What does `svc #0` do on Linux/ARM?
-- svc #0` triggers a software interrupt to request a Linux system call. The kernel reads the system call number from r7 and its arguments from the relevant registers.
+  svc #0` triggers a software interrupt to request a Linux system call. The kernel reads the system call number from r7 and its arguments from the relevant registers.
 - Include a screenshot showing the message.
 
 ---
