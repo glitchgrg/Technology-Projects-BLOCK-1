@@ -32,7 +32,7 @@ Before you can work on the project, you need to create your own copy of the repo
 You should now see a repository similar to:
 
 ```
-https://github.com/your-username/Technology-Projects-BLOCK-1
+https://github.com/glitchgurung/Technology-Projects-BLOCK-1
 ```
 
 ⚠️ Make sure you are viewing **your fork** and not the original Roehampton repository.
@@ -46,7 +46,7 @@ https://github.com/your-username/Technology-Projects-BLOCK-1
 The URL will look like:
 
 ```
-https://github.com/your-username/Technology-Projects-BLOCK-1.git
+https://github.com/glitchgrg/Technology-Projects-BLOCK-1.git
 ```
 
 ---
