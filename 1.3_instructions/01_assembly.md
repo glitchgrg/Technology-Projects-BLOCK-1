@@ -24,7 +24,9 @@ objdump -d add > add.disasm.txt
 ```
 **Prompts for reflection (add to `journal/01_asm_add.md`)**:
 - Which registers are used and why? What is the observable behavior?
+- Your program uses register r0. The mov instruction puts the value 5 into r0, and add adds 3 to it. The final register value is 8. Note that this program does not print 8 to the terminal.
 - Paste the relevant snippet from `add.disasm.txt` and annotate one instruction.
+- 
 
 ## 🗣️ Checkpoint 2 — System Call: "Hello from ARM" (commit: `asm-hello`)
 **Files**: `asm/hello_arm.s`
