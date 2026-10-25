@@ -1,1 +1,1 @@
-
+Python is generally an interpreted language, meaning its code is executed by the Python interpreter at runtime. C and C++ are usually compiled into machine code before execution. Python can also compile code into bytecode internally, but the programmer can normally run a Python script directly without a separate compilation command.
